@@ -206,6 +206,7 @@ public class AudioPlayer: Node {
 
         playerNode.pause()
         isPaused = true
+        isPlaying = false
     }
 }
 
